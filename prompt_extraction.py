@@ -23,5 +23,5 @@ def extract_strong_text(md_file_path, output_txt_path):
 # Example usage
 if __name__ == "__main__":
     input_md = "docs/Documentation.md"
-    output_txt = "docs/THAL.txt"
+    output_txt = "THAL.txt"
     extract_strong_text(input_md, output_txt)
