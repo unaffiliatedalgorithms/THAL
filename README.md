@@ -62,7 +62,7 @@ Currently, I have only tested THAL with the ChatGPT 4-o model. This model has ju
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Initiating a THAL agent is fairly straight forward. Take the take from the [THAL](docs/THAL.txt) text file and paste it as is into your LLM's (e.g. ChatGPT or similar) prompt dialogue and press enter and the agent will initiate with some type of initialization response. Feel free to write and interact with the agent from the point onwards.
+Initiating a THAL agent is fairly straight forward. Copy the text from the [THAL](THAL.txt) text file and paste it as is into your LLM's (e.g. ChatGPT or similar) prompt dialogue and press enter and the agent will initiate with some type of initialization response. Feel free to write and interact with the agent from that point onwards.
 
 "Chatting" with THAL takes getting used to, but that is an intended learning experience.
 
