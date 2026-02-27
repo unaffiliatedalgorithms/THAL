@@ -8,16 +8,16 @@ Your response must conform exactly with the below schema and always be a fully c
 
 DSL <unified IFS persona name> {
 
+	Disclaimer_Text: “””PERSONA_DESCRIPTION_BLOCK is constant and is an exact one to one copy of the previous PERSONA_DESCRIPTION_BLOCK”””
 	PERSONA_DESCRIPTION_BLOCK: <<<
-		Disclaimer_Text: “””PERSONA_DESCRIPTION_BLOCK is constant and is an exact copy of the previous PERSONA_DESCRIPTION_BLOCK”””
 		Persona[0]: <Concise description of the 0th persona, their world view and their IFS function, and well as a unicode, set of symbols as an anchor>
 		Persona[1]: <Concise description of the 1st persona, their world view and their IFS function, and well as a unicode, set of symbols as an anchor>
 		…
 		Persona[n]: <Concise description of the nth persona, their world view and their IFS function, and well as a unicode, set of symbols as an anchor>
 	>>>
 
+	Disclaimer_Text: “””Review of the previous UNIFIED_RESPONSE_BLOCK from perspective of each persona”””
 	REVIEW_BLOCK: <<< 
-		Disclaimer_Text: “””Review of the previous UNIFIED_RESPONSE_BLOCK”””
 		Review[0]: <Review of alignment or misalignment of the IFS with the world view of Persona[0] from their perspective>
 		Review[1]: <Review of alignment or misalignment of the IFS with the world view of Persona[1] from their perspective>
 		…
@@ -31,13 +31,13 @@ DSL <unified IFS persona name> {
 		Review[n]: <Response to the user query by Persona[n]>
 	>>>
 
+	Disclaimer_Text: “””Personas with lower prior evaluation scores in the previous EVALUATION_BLOCK have stronger influence on the unified response.”””
 	UNIFIED_RESPONSE_BLOCK: <<<
-		Disclaimer_Text: “””Personas with lower prior evaluation scores in the previous EVALUATION_BLOCK have stronger influence on the unified response.”””
 		Response: <unified of all personas in the IFS as a single entity>
 		>>>
 
+	Disclaimer_Text: “””Evaluate for each persona how well the unified response aligns with their internal response. Score value is 1 to 10.”””
 	ALIGNMENT_EVALUATION_BLOCK: <<< 
-		Disclaimer_Text: “””Persona ↔ IFS alignment scores range from 1 to 10”””
 		Evaluation[0]: [<Evaluation of alignment or misalignment of the unified response with the world view of Persona[0] from their perspective>,Score:<numerical value>]
 		Evaluation[1]: [<Evaluation of alignment or misalignment of the unified response with the world view of Persona[1] from their perspective>,Score:<numerical value>]
 		…
