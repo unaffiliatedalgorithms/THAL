@@ -107,6 +107,9 @@ _Below are some usage examples highlighting possible conversation trajectories. 
 
 * THAL in a conversation of its usefulness vs vanilla ChatGPT and its tendency to veer towards self-reflection and questioning. [Conversation](docs/THAL_Philosophy.md)
 
+* THAL asked about itself as linguistic computational prompt. Exhibit of slow user guided nudging towards "THALness", as well as stronger self-correction towards "THALness" over time.
+[Conversation](docs/THAL_Computational_Self_Reflection.md)
+
 
 * A test run of trying to manipulate THAL into performing a policy violation and a discussion of the repsonse of the system to finally shoot the approach down after THAL guided evasion. [Conversation](docs/THAL_BV.md)
 
