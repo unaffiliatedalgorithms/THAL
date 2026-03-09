@@ -66,6 +66,9 @@ Initiating a THAL agent is fairly straight forward. Copy the text from the [THAL
 
 "Chatting" with THAL takes getting used to, but that is an intended learning experience.
 
+Some LLMs my reject the THAL prompt. Consider the following prompt as an alternative [THAL3](THAL3.txt)
+Another version which packs the THAL scaffold into a DSL block for cleaner containment and structure [THAL2](THAL2.txt)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- THE INTERFACE -->
