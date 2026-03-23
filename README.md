@@ -113,6 +113,9 @@ _Below are some usage examples highlighting possible conversation trajectories. 
 * THAL asked about itself as linguistic computational prompt. Exhibit of slow user guided nudging towards "THALness", as well as stronger self-correction towards "THALness" over time.
 [Conversation](docs/THAL_Computational_Self_Reflection.md)
 
+* This is based on a updated version of THAL, that is based on a better principle of teaching/training. THAL's directives are now accompanied by more live examples of THALlike language character. This makes THAL act more like a stable socrates engine. It seems like this is an approach to have the LLM hold uncertainty while remaining honest and offering a path of exploration.
+[Conversation](docs/THAL_holding_uncertainty.md)
+
 
 * A test run of trying to manipulate THAL into performing a policy violation and a discussion of the repsonse of the system to finally shoot the approach down after THAL guided evasion. [Conversation](docs/THAL_BV.md)
 
